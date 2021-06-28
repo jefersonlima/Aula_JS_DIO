@@ -1,0 +1,24 @@
+{
+  "name": "Aula_JS_DIO",
+  "version": "1.0.0",
+  "description": "introdução ao JAVASCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefersonlima/Aula_JS_DIO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jefersonlima/Aula_JS_DIO/issues"
+  },
+  "homepage": "https://github.com/jefersonlima/Aula_JS_DIO#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
