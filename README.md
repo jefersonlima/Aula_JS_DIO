@@ -44,8 +44,8 @@ How would you like to define a style for your project?
 
 Which style guide do you want to follow?
 
-
 =>Google: https://github.com/google/eslint-config-google
+
 What format do you want your config file to be in?
 
 =>JSON
