@@ -1,3 +1,36 @@
+//AULA 5
+function clicou(){
+    //alert("Obrigado por clicar!")
+    //document.getElementById("agradecimento").innerHTML = "Obrigado por Clicar!"
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por Clicar!</b>"
+}
+
+function redirecionar(){
+    window.open("http://www.google.com.br");
+    //window.location.href = "http://www.google.com.br";
+}
+
+function trocar(elemento){
+    //alert("trocar texto");
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+
+/*
 //AULA 4
 var validar = 0;
 function validaIdade(idade){
@@ -24,7 +57,7 @@ function setReplece(frase, nome, novo_nome){
 }
 
 alert(setReplece("Vai Japão", "Japão", "Brasil"));
-
+*/
 /*
 //AULA 3
 
