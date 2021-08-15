@@ -1,3 +1,31 @@
+//AULA 4
+var validar = 0;
+function validaIdade(idade){
+    var validar;
+    if(idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+
+function soma(n1, n2){
+    return n1 + n2;
+}
+
+alert(soma(5, 10));
+
+function setReplece(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+
+alert(setReplece("Vai Japão", "Japão", "Brasil"));
+
+/*
 //AULA 3
 
 var data = new Date();
@@ -6,7 +34,7 @@ alert(data.getDate());
 alert(data.getMonth()+1);
 alert(data.getHours());
 alert(data.getMinutes());
-/*
+
 var count;
 for(count=0; count <= 5; count++){
     alert(count);
@@ -27,6 +55,7 @@ if (idade >= 18){
 }else{
     alert("menor de idade");
 }
+*/
 
 /*
 //AULA 2
