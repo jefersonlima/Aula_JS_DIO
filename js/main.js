@@ -1,3 +1,27 @@
+//AULA 2
+//DICIONARIOS
+var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"Uva", cor:"roxa"}]
+console.log(frutas);
+alert(frutas[1].cor);
+
+var fruta = {nome:"maça", cor:"vermelha"}
+console.log(fruta.nome);
+alert(fruta.cor);
+
+//LISTA
+var lista = ["maça", "Pêra", "Laranja"];
+console.log(lista[1]);
+lista.push("Uva");
+console.log(lista)
+lista.pop();
+console.log(lista)
+console.log(lista.length);
+console.log(lista.reverse());
+console.log(lista.toString());
+
+console.log(lista.join( " | "))
+
+/*
 //AULA 1
 var nome = "Jeferson Lima";
 var idade = 38;
@@ -18,5 +42,5 @@ console.log(frase.toUpperCase());
 console.log(frase.toLowerCase());
 
 console.log(n1 * n2)
-
+*/
 
