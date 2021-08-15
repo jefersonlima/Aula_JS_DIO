@@ -2,10 +2,11 @@
 
 var data = new Date();
 alert(data);
-alert(data.getDay()); //get day deu pau verificar!
+alert(data.getDate());
+alert(data.getMonth()+1);
 alert(data.getHours());
 alert(data.getMinutes());
-
+/*
 var count;
 for(count=0; count <= 5; count++){
     alert(count);
